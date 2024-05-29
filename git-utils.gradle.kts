@@ -12,11 +12,9 @@ val repository = "https://%sgithub.com/SpaceBank/Android-Space"
  */
 val modules = hashMapOf<String, List<ModuleConfig>?>().apply {
     put("build-logic", null)
-    put("Formatter", listOf(ModuleConfig(parentPath = "Space-ToolKits:Formatter", modulePath = "./Formatter/SpaceFormatter")))
-    put("UI", listOf(
-        ModuleConfig(parentPath = "Space-App-UI", modulePath = "./UI/UI-App"),
-        ModuleConfig(parentPath = "Space-Core:UI", modulePath = "./UI/SpaceUI")))
-    put("Assets", listOf(ModuleConfig(parentPath = "Space-Core:Assets", modulePath = "./Assets")))
+//    put("UI", listOf(
+//        ModuleConfig(parentPath = "Space-App-UI", modulePath = "./UI/UI-App"),
+//        ModuleConfig(parentPath = "Space-Core:UI", modulePath = "./UI/SpaceUI")))
 }
 
 /**
