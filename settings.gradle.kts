@@ -28,4 +28,4 @@ dependencyResolutionManagement {
     }
 }
 
-include(":Template")
+include(settings.extra["APP_NAME"] as? String)

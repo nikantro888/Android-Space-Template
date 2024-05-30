@@ -12,7 +12,7 @@ buildConfig {
 }
 
 android {
-    namespace = project.findProperty("Name_Space").toString()
+    namespace = project.findProperty("NAME_SPACE").toString()
 }
 
 dependencies {
