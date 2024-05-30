@@ -1,17 +1,18 @@
 import flavors.CountryFlavor
 import buildtypes.BuildTypes
+import flavors.MarketFlavor
 
 plugins {
     alias(libs.plugins.space.android.library)
 }
 
 buildConfig {
-    flavors = setOf(CountryFlavor())
+    flavors = setOf(MarketFlavor(), CountryFlavor())
     buildTypes = setOf(BuildTypes.DEBUG, BuildTypes.TEST, BuildTypes.PRODUCTION)
 }
 
 android {
-    namespace = "com.space.template"
+    namespace = project.findProperty("Name_Space").toString()
 }
 
 dependencies {
