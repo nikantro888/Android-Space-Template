@@ -25,9 +25,8 @@ This project serves as an initial template for creating projects in Space Remote
 ## Installation
 
 **Clone the repository**: Clone the forked repository to your local machine.
-    ```sh
-    git clone https://github.com/your-username/your-forked-repo.git
-    ```
+```sh
+git clone https://github.com/your-username/your-forked-repo.git
 
 ## Usage
 
