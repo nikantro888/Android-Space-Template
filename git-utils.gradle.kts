@@ -8,13 +8,38 @@ import java.io.InputStreamReader
 val repository = "https://%sgithub.com/SpaceBank/Android-Space"
 
 /**
- * A mapping of module names to their respective configuration, if applicable.
+ * A mapping of module names to their respective configurations, if applicable.
+ *
+ * @sample how to add different types of modules:
+ *
+ * 1. Only core module:
+ *
+ * ```
+ * put("Formatter", listOf(
+ *     ModuleConfig(
+ *         parentPath = "Space-ToolKits:Formatter",
+ *         modulePath = "./Formatter/SpaceFormatter"
+ *     )
+ * ))
+ * ```
+ *
+ * 2. With App module plus core module:
+ *
+ * ```
+ * put("UI", listOf(
+ *     ModuleConfig(
+ *         parentPath = "Space-App-UI",
+ *         modulePath = "./UI/UI-App"
+ *     ),
+ *     ModuleConfig(
+ *         parentPath = "Space-Core:UI",
+ *         modulePath = "./UI/SpaceUI"
+ *     )
+ * ))
+ * ```
  */
 val modules = hashMapOf<String, List<ModuleConfig>?>().apply {
     put("build-logic", null)
-//    put("UI", listOf(
-//        ModuleConfig(parentPath = "Space-App-UI", modulePath = "./UI/UI-App"),
-//        ModuleConfig(parentPath = "Space-Core:UI", modulePath = "./UI/SpaceUI")))
 }
 
 /**
