@@ -49,3 +49,5 @@ NAME_SPACE=com.yourcompany.yourapp
 ![img_1.png](img_1.png)
 
 ### 3. Move the target module functionality !!!
+
+![img_2.png](img_2.png)
