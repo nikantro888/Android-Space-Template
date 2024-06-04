@@ -24,9 +24,9 @@ This project serves as an initial template for creating projects in Space Remote
 
 ## Installation
 
-1. **Clone the repository**: Clone the repository to your local machine.
+1. **Clone the repository**: Clone it to your local machine.
     ```sh
-    git clone https://github.com/your-username/your-forked-repo.git
+    git clone https://github.com/nikantro888/Android-Space-Template.git
     ```
 
 ## Usage
