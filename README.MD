@@ -24,7 +24,7 @@ This project serves as an initial template for creating projects in Space Remote
 
 ## Installation
 
-1. **Clone the repository**: Clone the forked repository to your local machine.
+1. **Clone the repository**: Clone the repository to your local machine.
     ```sh
     git clone https://github.com/your-username/your-forked-repo.git
     ```
@@ -42,12 +42,12 @@ Update the `gradle.properties` file with your project details:
 APP_NAME=YourAppName
 NAME_SPACE=com.yourcompany.yourapp
 ```
-### 2. Replace Package and Module name manually
+### 2. Manually replace the package and module names
 
 ![img.png](img.png)
 
 ![img_1.png](img_1.png)
 
-### 3. Move the target module functionality !!!
+### 3. Move the target module's functionality !!!
 
 ![img_5.png](img_5.png)
