@@ -45,10 +45,10 @@ NAME_SPACE=com.yourcompany.yourapp
 ```
 ### 2. Manually replace the package and module names
 
-![img.png](module_renaming_img.png)
+![img.png](images/module_renaming_img.png)
 
-![img_1.png](package_renaming_img.png)
+![img_1.png](images/package_renaming_img.png)
 
 ### 3. Move the target module's functionality !!!
 
-![img_5.png](coding.png)
+![img_5.png](images/coding.png)
