@@ -24,9 +24,9 @@ This project serves as an initial template for creating projects in Space Remote
 
 ## Installation
 
-1. Clone the target, empty repository such as Core-Presentation.
+1. Clone the target, empty repository such as [Core-Presentation](https://github.com/SpaceBank/Android-Space-Core-Presentation).
 
-2. Download the Android-Space-Template project zip file and paste all files into the cloned repository, except README.md.
+2. Download the [Android-Space-Template](https://github.com/nikantro888/Android-Space-Template) project zip file and paste all files into the cloned repository, except README.md.
 
 3. Add the files to Git and push them to the remote repository.
 
