@@ -14,7 +14,7 @@
 
 ## Overview
 
-This project serves as an initial template for creating projects in Space Remote repositories. It provides a basic structure and configuration to help you get started quickly.
+This project serves as an initial template for creating Space Remote repositories projects. It provides a basic structure and configuration to help you get started quickly.
 
 ## Features
 
